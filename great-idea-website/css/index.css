@@ -65,41 +65,70 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body{
-	text-align: center;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding-top: 20px;
+body {
+max-width: 100%;
+margin: auto;
 }
-.links a{
-	/* text-align: center;
-	margin: 1%; */
-	display:inline-block;
-  width:5%;
-  margin-left:1%;
-  box-sizing: border-box;
+nav {
+width: 100%;
+padding: 20px 0% 20px 20%;
+display: inline-block;
+background-color: darkturquoise;
 }
-.logo {
-	/* text-align: center;
-	margin-left: 15%; 
-	margin-right: 0%;  */
-	display:inline-block;
-  width:15%;
-  margin: 0 1%;
+nav a {
+text-decoration: none;
+color: darkgrey;
+display: inline-block;
+width: 10%;
+margin: 0 auto;
+background-color: darkmagenta;
+padding: 25px;
+}
+div .logo {
+display: inline-block;
+width: 10%;
+background-color: darkolivegreen;
 }
 header {
-	text-align: center;
+display: inline-block;
+width: 50%;
 }
-h1{
-	display: inline-block;
+header h1{
+
 }
-nav a:link {
-	text-decoration: none;
-	color: grey; 
-  }
-header img{
-	align-items: right;
+header p{
+
 }
-.top {
-text-align: 0 auto;
+header .pic{
+
+}
+.top{
+
+}
+.top h2{
+
+}
+.top p{
+
+}
+.middle-image{
+
+}
+.middle{
+
+}
+.middle h2{
+
+}
+.middle p{
+
+}
+h2{
+
+}
+address{
+
+}
+footer{
+
 }
