@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid black; 
+	max-width: 100%;
 }
 
 html, body {
@@ -67,68 +67,114 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 max-width: 100%;
-margin: auto;
 }
 nav {
 width: 100%;
-padding: 20px 0% 20px 20%;
+height: 60px;
 display: inline-block;
-background-color: darkturquoise;
 }
-nav a {
-text-decoration: none;
-color: darkgrey;
+nav .links{
 display: inline-block;
-width: 10%;
-margin: 0 auto;
-background-color: darkmagenta;
-padding: 25px;
+width: 70%; 
 }
-div .logo {
-display: inline-block;
-width: 10%;
-background-color: darkolivegreen;
+nav .links a{
+	text-decoration: none;
+	color: darkgrey;
+	padding: 0 5%;
+	display: inline-block;
+}
+.top-image{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	vertical-align: middle;
 }
 header {
 display: inline-block;
-width: 50%;
+width: 100%;
+height: 600px;
+margin: 5% 0;
 }
+
 header h1{
-
+font-size: 100px;
+text-align: center;
 }
-header p{
-
+header .button{
+display: inline-block;
+width: 55%;
+vertical-align: middle;
+height: 80%;
+text-align: center;
+padding-left: 5%;
 }
-header .pic{
+.pic{
+	width: 40%;
+	height: 80%; 
+	display: inline-block;
+	vertical-align: middle;
+}
 
+button{
+	font-size: 24px;
+	padding: 10px 55px;
+}
+
+header div img{
+	height: 550px;
+	width: 550px;
+}
+hr{
+	width: 90%;
 }
 .top{
-
+margin: 5% 0;
+width: 100%;
+font-size: 24px;
 }
-.top h2{
-
+.top .features{
+	display: inline-block;
+	width: 48%;
+	padding-left: 5%;
 }
-.top p{
-
+.top .about{
+	display:inline-block;
+	width: 48%;
+	padding-left: 5%;
 }
-.middle-image{
-
+.long-image{
+	display: inline-block;
+	width: 100%;
+	padding: 0 5%;
 }
 .middle{
-
-}
-.middle h2{
-
+	display: inline-block;
+	width: 100%;
+	padding: 3%;
+	font-size: 24px;
 }
 .middle p{
-
+	padding-bottom: 5%;
 }
-h2{
-
+.middle div{
+text-align: left;
+display: inline-block;
+width: 32%;
+padding: 2%;
 }
-address{
-
+.contact{
+	display: inline-block;
+	width: 30%;
+	padding: 0 5%;
+	padding-top: 3%; 
+	font-size: 24px;
 }
-footer{
-
+.contact .p{
+	padding-bottom: 5%;
+	padding-left: 5%;
+}
+footer p{
+	text-align: center;
+	padding: 5% 0;
+	font-size: 20px;
 }
