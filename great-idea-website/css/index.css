@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black; 
 }
 
 html, body {
@@ -64,3 +65,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 20px;
+}
+.links a{
+	/* text-align: center;
+	margin: 1%; */
+	display:inline-block;
+  width:5%;
+  margin-left:1%;
+  box-sizing: border-box;
+}
+.logo {
+	/* text-align: center;
+	margin-left: 15%; 
+	margin-right: 0%;  */
+	display:inline-block;
+  width:15%;
+  margin: 0 1%;
+}
+header {
+	text-align: center;
+}
+h1{
+	display: inline-block;
+}
+nav a:link {
+	text-decoration: none;
+	color: grey; 
+  }
+header img{
+	align-items: right;
+}
+.top {
+text-align: 0 auto;
+}
