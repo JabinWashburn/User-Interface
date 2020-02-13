@@ -1,9 +1,9 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -16,51 +16,176 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
+max-width: 100%;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+max-width: 100%;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+}
+nav {
+width: 100%;
+height: 60px;
+display: inline-block;
+}
+nav .links{
+display: inline-block;
+width: 70%; 
+}
+nav .links a{
+text-decoration: none;
+color: darkgrey;
+padding: 0 5%;
+display: inline-block;
+}
+.top-image{
+display: inline-block;
+width: 20%;
+height: 100%;
+vertical-align: middle;
+}
+header {
+display: inline-block;
+width: 100%;
+height: 600px;
+margin: 5% 0;
+}
+
+header h1{
+font-size: 100px;
+text-align: center;
+}
+header .button{
+display: inline-block;
+width: 55%;
+vertical-align: middle;
+height: 80%;
+text-align: center;
+padding-left: 5%;
+}
+.pic{
+width: 44%;
+height: 80%; 
+display: inline-block;
+vertical-align: middle;
+}
+
+button{
+font-size: 24px;
+padding: 10px 55px;
+}
+
+header div img{
+height: 550px;
+width: 550px;
+}
+hr{
+width: 90%;
+}
+.top{
+margin: 5% 0;
+width: 100%;
+font-size: 24px;
+}
+.top .features{
+display: inline-block;
+width: 48%;
+padding-left: 5%;
+}
+.top .about{
+display:inline-block;
+width: 48%;
+padding-left: 5%;
+}
+.long-image{
+display: inline-block;
+width: 100%;
+padding: 0 5%;
+}
+.middle{
+display: inline-block;
+width: 100%;
+padding: 3%;
+font-size: 24px;
+}
+.middle p{
+padding-bottom: 5%;
+}
+.middle div{
+text-align: left;
+display: inline-block;
+width: 32%;
+padding: 2%;
+}
+.contact{
+display: inline-block;
+width: 100%;
+padding: 0 5%;
+padding-top: 3%; 
+font-size: 24px;
+text-align: left;
+}
+.contact .p{
+padding-bottom: 5%;
+padding-left: 5%;
+text-align: left;
+}
+footer p{
+text-align: center;
+padding: 5% 0;
+font-size: 20px;
+}
+.contact h2{
+	text-align: left;
+}
+.contact p{
+	text-align: left;
+}
